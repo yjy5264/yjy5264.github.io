@@ -1,7 +1,6 @@
 # 基于React高阶组件的双向绑定表单实现
-**本文默认掌握React、ES6及高阶组件的基本知识**
 
-###最终使用效果:
+### 最终使用效果:
 ```javascript
 import React from 'react';
 import Item from './Item';
@@ -25,12 +24,12 @@ export default class FromDemo extends React.Component {
 }
 ```
 
-###使用说明：
+### 使用说明：
 使用@formCreate（ES6修饰器语法）后, 直接将React受控组件（onChange & value 形式）如`<input />`放在`<Item>`里,无需再给`<input />`写入onChange和value props。
 通过`this.props.handleSubmit()`获取form的值。
 
-##核心实现
-###formCreate.js
+## 核心实现
+### formCreate.js
 ```javascript
 import React from 'react';
 
@@ -65,7 +64,7 @@ export const formCreate = WrappedComponent => class extends React.Component {
     }
 };
 ```
-###Item.js
+### Item.js
 ```javascript
 import React from 'react';
 import { View, Text } from 'react-native';
@@ -100,5 +99,5 @@ export default class Item extends React.Component {
 }
 ```
 
-###说明
+### 说明
 此处通过抽离state的方式将{onChange, value}以props.getField回调的形式传递给受控组件。
