@@ -101,3 +101,4 @@ export default class Item extends React.Component {
 
 ### 说明
 此处通过抽离state的方式将{onChange, value}以props.getField回调的形式传递给受控组件。
+initialValue通过Item内部保存一个上一次的initialValue来判断是否变化。
