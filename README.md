@@ -4,5 +4,5 @@
 2017/12/17
 
 ---
-### [基于React高阶组件的双向绑定表单实现](https://yjy5264.github.io/blogs/form)
+### [React高阶组件实现表单双向绑定](https://yjy5264.github.io/blogs/form)
 2017/10/15
