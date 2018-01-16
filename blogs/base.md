@@ -8,15 +8,15 @@ ES6带来的重要的革新我认为有三点：
 
 ### 方案一：MVC
 既然有了OOP，那么new一个视图出来不就可以了  
-![](https://yjy5264.github.io/images/MVC)  
+![](https://github.com/yjy5264/yjy5264.github.io/raw/master/images/MVC.jpg)  
 采用原来的MVC结构，Control控制视图，并且负责与Model层通信  
-![](https://yjy5264.github.io/images/MVCs)  
+![](https://github.com/yjy5264/yjy5264.github.io/raw/master/images/MVCs.jpg)  
 每一个页面都是一个MVC，页面之间都通讯用事件订阅就可以了  
 在一个中大型项目中这是一个优雅的解决方案吗？  
 
 ### 方案二：状态机
 将所有的视图写成v=f(state)的形式，所有的状态交给一颗state树来管理  
-![](https://yjy5264.github.io/images/stateTree)  
+![](https://github.com/yjy5264/yjy5264.github.io/raw/master/images/stateTree.jpg)  
 每一个输入事件作为一个action传给一个处理函数，这个函数会改变state树里的状态  
 每一个状态发生变化都会引起该状态对应所有对应视图发生变化  
 怎样写成v=f(state)的形式？  
@@ -38,7 +38,7 @@ React组件内部改变this.state即会更新视图
 
 ### Redux
 严格的单向数据流是Redux架构的设计核心  
-![](https://yjy5264.github.io/images/redux)  
+![](https://github.com/yjy5264/yjy5264.github.io/raw/master/images/redux.jpg)  
 1. action事件传给reducer
 2. reducer里编写纯函数处理action改变store里的state
 3. store改变引起视图更新
