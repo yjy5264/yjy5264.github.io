@@ -66,9 +66,9 @@ export default class extends React.Component {
         return (
             <div
                 onMouseDown={e => this.onMouseDown(e)}
-                style={{transform: `translateX(${this.state.translateX}px)translateY(${this.state.translateY}px)`}}
+                style={　{transform: `translateX(${this.state.translateX}px)translateY(${this.state.translateY}px)`}　}
             >
-                <div style={{ width: 100, height: 100, backgroundColor: 'blue' }} />
+                <div style={　{ width: 100, height: 100, backgroundColor: 'blue' }　} />
             </div>
         )
     }
