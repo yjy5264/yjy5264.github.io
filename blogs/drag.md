@@ -80,5 +80,5 @@ export default class extends React.Component {
 2. this.moving为记录移动开始标志
 3. stopPropagation作用为终止事件在传播过程的捕获、目标处理或起泡阶段进一步传播
 4. div的实际移动由css3属性transform: { translateX, translateY }提供
-5. 高阶组件封装的github项目链接[react-drag-hoc](https://github.com/yjy5264/react-drag-hoc)，如果写的还行，给个star
+5. 高阶组件封装的github项目链接[react-drag-hoc](https://github.com/yjy5264/react-drag-hoc)
 
