@@ -73,6 +73,9 @@
 
 ### 优化
 1. 渲染优化：不重复渲染子组件，同构直出，服务端渲染
+2. 网络优化：移动端域名收敛，PC端域名发散，合理利用CDN，HTTP缓存cache-control，合并请求，懒加载载入大文件，HTTP/2 server push，IPv6
+3. 文件优化：压缩JS，CSS Sprite合并图片，service worker缓存文件
+4. 动画：requestAnimationFrame
 
 ## 网络
 
