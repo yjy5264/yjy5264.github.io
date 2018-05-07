@@ -1,6 +1,6 @@
 # redux源码解析
 
-0. 此篇文章可作为redux源码导读使用，只说明了其中部分核心代码，并进行了一些简化处理
+#### 此篇文章可作为redux源码导读使用，只说明了其中部分核心代码，并进行了一些简化处理
 
 ## 用法回顾
 1. 用createStore来创建store
@@ -48,13 +48,12 @@
 
 ### applyMiddleware(...middlewares)
 ```javascript
-    function compose(...funcs) {
-      if (funcs.length === 0) return arg => arg
-      if (funcs.length === 1) return funcs[0]
-      return funcs.reduce((a, b) => (...args) => a(b(...args)))
-    }
-    
     const applyMiddleware = (...middlewares) => createStore => (...args) => {
+        const compose = (...funcs) => {
+          if (funcs.length === 0) return arg => arg
+          if (funcs.length === 1) return funcs[0]
+          return funcs.reduce((a, b) => (...args) => a(b(...args)))
+        }
         const store = createStore(...args)
         let dispatch = () => {
           throw new Error(
@@ -72,7 +71,7 @@
         return { ...store, dispatch } //*3 执行dispatch传入action
     }
 ```
-0. compose是函数式编程的用法用于简化函数嵌套执行
+#### compose是函数式编程的用法用于简化函数嵌套执行
 #### 我们来看看middleware是怎么写的
 ```javascript
     const logger = store => next => action => {
