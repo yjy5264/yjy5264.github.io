@@ -67,7 +67,7 @@
           dispatch: (...args) => dispatch(...args)
         }
         chain = middlewares.map(middleware => middleware(middlewareAPI)) //*1 middlewareAPI是store
-        dispatch = compose(...chain)(store.dispatch) //*2 store.dispatch即是next
+        dispatch = compose(...chain)(store.dispatch) //*2 ...chain和store.dispatch是next
         return { ...store, dispatch } //*3 执行dispatch传入action
     }
 ```
@@ -83,6 +83,6 @@
 ```
 为什么会变成 store => next => action => ?
 1. 第一个store是传入的middlewareAPI
-2. 第二个next是传入的store.dispatch
+2. 第二个next是通过compose合成...middleware和store.dispatch实现中间件级联
 3. 第三个action是执行dispatch传入的action  
 (见注释)
