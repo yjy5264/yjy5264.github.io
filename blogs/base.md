@@ -47,4 +47,4 @@ React组件内部改变this.state即会更新视图
 业务逻辑由redux处理，组件内部严格封装只留必要的接口  
 如果组件有现成的(比如antd)，解耦完成的React方案开发起来速度简直不要太快  
 
-<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/yjy5264/yjy5264.github.io"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>

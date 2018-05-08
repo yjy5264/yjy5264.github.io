@@ -82,4 +82,4 @@ export default class extends React.Component {
 4. div的实际移动由css3属性transform: { translateX, translateY }提供
 5. 高阶组件封装的github项目链接[react-drag-hoc](https://github.com/yjy5264/react-drag-hoc)
 
-<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/yjy5264/yjy5264.github.io"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
