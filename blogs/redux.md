@@ -1,4 +1,3 @@
-<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
 # redux源码解析
 
 #### 此篇文章可作为redux源码导读使用，只说明了其中部分核心代码，并进行了一些简化处理
@@ -87,3 +86,5 @@
 2. 第二个next是通过compose合成...middleware和store.dispatch实现中间件级联
 3. 第三个action是执行dispatch传入的action  
 (见注释)
+
+<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>

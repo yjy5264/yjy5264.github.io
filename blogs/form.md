@@ -1,4 +1,3 @@
-<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
 # React高阶组件实现表单双向绑定
 
 ### 最终使用效果:
@@ -103,3 +102,5 @@ export default class Item extends React.Component {
 ### 说明
 此处通过抽离state的方式将{onChange, value}以props.getField回调的形式传递给受控组件。
 initialValue通过Item内部保存一个上一次的initialValue来判断是否变化。
+
+<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>

@@ -1,4 +1,3 @@
-<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
 # 前端三大框架对比
 
 ## React与Vue
@@ -28,3 +27,5 @@
 ### 比较
 1. MVVM 列表渲染的初始化几乎一定比 Virtual DOM 慢，因为创建 ViewModel / scope 实例比起 Virtual DOM 来说要昂贵很多
 2. 大而全大框架，学习成本高
+
+<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>

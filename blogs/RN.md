@@ -1,4 +1,3 @@
-<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
 # 总结一下今年的react native 填坑之旅，已双端上线
 
 一套代码双端上线，互联网产品，页面100左右，复杂逻辑页面、复杂交互组件若干，接入相册，音频，地图，分享，第三方支付。
@@ -33,3 +32,5 @@
 ### 原生组件
 1. 接入了高德地图，QQ微博微信分享，还有支付宝支付这些需要分别写iOS和android的原生SDK。
 2. 相册这块使用的react-native-image-picker。
+
+<a href="https://github.com/yjy5264"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
