@@ -15,7 +15,8 @@
 vue和react的虚拟DOM的Diff算法大致相同：
 1. tree diff 只对同一层级节点比较
 2. component diff 比较组件类型
-3. element diff 同一层级子节点通过id区分
+3. element diff 同一层级子节点通过id区分  
+
 基于以上这三个约束，使得虚拟DOM的Diff算法的复杂度从O(n^3)降到了O(n)。
 
 ### Vue
