@@ -27,6 +27,7 @@ vue和react的虚拟DOM的Diff算法大致相同：
 
 ### React
 
-当使用setState/forceUpdate或者外部改变props时，会调用render方法更新视图
+1. 当使用setState/forceUpdate，会调用render方法更新视图
+2. 父组件更新视图时，会re-render子组件，所以看起来改变子组件的props也会更新视图
 
 <a href="https://github.com/yjy5264/yjy5264.github.io"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.com/yjy5264/yjy5264.github.io/raw/master/images/forkMe.png" alt="Fork me on GitHub"></a>
