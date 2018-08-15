@@ -35,6 +35,7 @@
 3. 一种通知 reducer 请求失败的 action。对于这种 action，reducer 可能会重置 isFetching。另外，有些 reducer 会保存这些失败信息，并在 UI 里显示出来。
 
 也就是一个接口发起是这样的
+
 ```javascript
 dispatch(fetchPostsRequest(subject));
 fetch(url).then(res => {
