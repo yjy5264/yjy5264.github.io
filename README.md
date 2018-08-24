@@ -1,6 +1,6 @@
 ## Welcome to this Pages
 
-### [# 企业级后台react-redux异步操作实践](https://yjy5264.github.io/blogs/redux2)
+### [企业级后台react-redux异步操作实践](https://yjy5264.github.io/blogs/redux2)
 2018/8/14
 
 ---
