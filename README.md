@@ -1,5 +1,9 @@
 ## Welcome to this Pages
 
+### [JS手动实现柯里化(curry)函数](https://yjy5264.github.io/blogs/curry)
+2018/11/19
+
+---
 ### [企业级后台react-redux异步操作实践](https://yjy5264.github.io/blogs/redux2)
 2018/8/14
 
